@@ -15,6 +15,8 @@ A modern, full-stack e-commerce application built with the MERN stack (MongoDB, 
 - ⚡ **Fast & Modern** - Built with latest React and Node.js
 
 <img width="1919" height="875" alt="Screenshot 2025-10-04 153738" src="https://github.com/user-attachments/assets/3c5916bb-8458-46e0-9ef0-80cc10ba36dc" />
+<img width="1919" height="873" alt="Screenshot 2025-10-04 153758" src="https://github.com/user-attachments/assets/4e2d6362-b7f6-408d-9b4d-613cc014e8df" />
+
 
 *Product grid with add to cart functionality*
 
@@ -25,19 +27,16 @@ A modern, full-stack e-commerce application built with the MERN stack (MongoDB, 
 - npm
 
 ### 1. Backend Setup
-```bash
 cd ecommerce-backend
 npm install
 npm run dev
 
 ### 2. Frontend Setup
-```bash
 cd ecommerce-frontend
 npm install
 npm start
 
 ### 📁 Project Structure
-```bash
 e-commerce/
 ├── ecommerce-frontend/     # React.js client
 ├── ecommerce-backend/      # Node.js server  
@@ -45,14 +44,12 @@ e-commerce/
 └── .gitignore
 
 ### 🛠️ Technologies Used
-```bash
 Frontend: React, React Router, Context API, Axios
 Backend: Node.js, Express.js, CORS
 Styling: Custom CSS
 Development: Git, GitHub
 
 ### 📞 API Endpoints
-```bash
 Method	  Endpoint      	Description
 GET	     /api/products	 Get all products
 POST   	/api/orders      Place new order
